@@ -16,6 +16,15 @@ cc_library_shared {
     srcs: sourceFiles,
     shared_libs: commonSharedLibraries,
 
+    product_variables: {
+        device_support_legacy_hwfde: {
+            cflags: ["-DLEGACY_HW_DISK_ENCRYPTION"],
+        },
+        device_support_wait_for_qsee: {
+            cflags: ["-DWAIT_FOR_QSEE"],
+        },
+    },
+
     owner: "qti",
 }
 
