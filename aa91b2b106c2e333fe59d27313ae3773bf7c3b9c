@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "69a44cd0_51a77324",
+        "filename": "Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2019-04-06T18:03:55Z",
+      "side": 1,
+      "message": "I don\u0027t think that should\u0027ve been removed",
+      "revId": "aa91b2b106c2e333fe59d27313ae3773bf7c3b9c",
+      "serverId": "44769751-fbfc-497d-9c9a-4bb318a4117c",
+      "unresolved": true
+    }
+  ]
+}
