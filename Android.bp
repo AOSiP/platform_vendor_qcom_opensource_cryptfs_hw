@@ -17,7 +17,7 @@ cc_library_shared {
     shared_libs: commonSharedLibraries,
 
     product_variables: {
-        lineage: {
+        aosip: {
             should_skip_waiting_for_qsee: {
                 cflags: ["-DSKIP_WAITING_FOR_QSEE"],
             },
